@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div {
+    display: block;
+}
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.att{
+    display: flex;
+    background-color: black;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26);
+    width: 100%;
+    height:50px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    position: fixed;
+}
+.navlink {
+        text-decoration: none;
+        color: rgba(240, 81, 54);
+        cursor: pointer;
+        margin-right: 30px;
+    }
+
+header{
+    color: beige;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+    padding-right: 15px;
+}
+h2{
+   margin: auto;
+   margin-top: 200px;
+   font-size: 55px;
+}
+#home{
+    background-color: white;
+    color: black;
+    padding-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 350px;
+}
+#bio{
+    margin-top: 150px;
+    background-color: black;
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 250px;
+
+}
+img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 180px;
+}
+article{
+    display: block;
+    padding-left: 50px;
+}
+h3{
+    padding-right: 500px;
+    padding-top:0;
+    padding-bottom: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+button{
+    background-color: pink;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#skill{
+    margin-top: 50px;
+    background-color: plum;
+    width:1225px;
+    height: 600px;
+    text-align: center;
+    color:black
+}
+h4{
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+#contact {
+    color: rgba(240, 81, 54);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact p {
+    color: rgba(240, 81, 54);
+    text-align: center;
+    padding: 1.5px;
+}
+#contact img{
+    height:50px;
+    width: 50px;
+}
